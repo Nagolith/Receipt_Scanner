@@ -12,4 +12,6 @@ https://www.raywenderlich.com/
 
 Kaggle.com 
 
-find this about reading receipts with opencv on kaggle: https://www.kaggle.com/dmitryyemelyanov/receipt-ocr-part-1-image-segmentation-by-opencv
+find this about reading receipts with opencv on kaggle:
+  part 1: https://www.kaggle.com/dmitryyemelyanov/receipt-ocr-part-1-image-segmentation-by-opencv
+  part 2: https://www.kaggle.com/dmitryyemelyanov/receipt-ocr-part-2-text-recognition-by-tesseract
