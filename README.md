@@ -1,6 +1,6 @@
 # Receipt_Scanner
 
-christian Martinez & Jonathan Hald
+Jonathan Hald, Christian Martinez, and Erik Sanders
 
 resources:
 
