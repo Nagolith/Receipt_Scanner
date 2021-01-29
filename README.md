@@ -11,3 +11,5 @@ https://www.tensorflow.org/tutorials/text/text_classification_rnn
 https://www.raywenderlich.com/
 
 Kaggle.com 
+
+find this about reading receipts with opencv on kaggle: https://www.kaggle.com/dmitryyemelyanov/receipt-ocr-part-1-image-segmentation-by-opencv
