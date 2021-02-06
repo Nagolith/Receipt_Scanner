@@ -24,7 +24,9 @@ find this about reading receipts with opencv on kaggle:
 >>>>>>> 2d39bc2394fd9508f12966bd7ddd1fba7506ab98
 
 Premade models using EAST:
+
 https://github.com/argman/EAST
+
 https://www.pyimagesearch.com/2018/08/20/opencv-text-detection-east-text-detector/
 
 
@@ -56,7 +58,7 @@ https://www.pyimagesearch.com/2018/08/20/opencv-text-detection-east-text-detecto
    - Get file path
    - Get file name
    - Open file  
-    - Terminal Commands:  
+   - Terminal Commands:  
       - cd path
       - filename.(extension) + enter
  
