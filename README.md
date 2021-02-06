@@ -31,8 +31,8 @@ https://www.pyimagesearch.com/2018/08/20/opencv-text-detection-east-text-detecto
 
 
 **Select**:
-  - Open file Explorer
-  - Select file/Open file
+  - Open file Explorer(see file_explorer.py)
+  - Select file/Open file(see file_explorer.py)
   - Return name of image and location
   
  
@@ -65,4 +65,5 @@ https://www.pyimagesearch.com/2018/08/20/opencv-text-detection-east-text-detecto
 
 TODO:
 Colors of GUI - Christian
+
 Terminal Commands - Erik
