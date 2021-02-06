@@ -12,6 +12,8 @@ https://www.tensorflow.org/tutorials/images/cnn
 
 https://www.raywenderlich.com/
 
+https://www.geeksforgeeks.org/os-module-python-examples/
+
 <<<<<<< HEAD
 =======
 Kaggle.com 
