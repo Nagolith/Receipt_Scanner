@@ -1,17 +1,45 @@
 import os
 
+try:
+    filename = 'sample.png'
+    f = open(filename, 'rU') 
+    text = f.read() 
+    f.close()
+except IOError: 
+  
+    # print(os.error) will <class 'OSError'> 
+    print('Problem reading: ' + filename)
+
+# Get current path
+print(os.getcwd())
+
+# Rename file
+'''
+fd = "GFG.txt"
+os.rename(fd,'New.txt')
+'''d
+
+# Opens notepad without user seeing commands
+'''
+cmd = 'notepad'
+os.system(cmd)
+'''
+
+# Displays the home dir(windows os)
+# 'echo' to display
+'''
+# os.system("echo %userprofile%")
+'''
+
 # Shows current file path
-# Should run with exit code 0
+# Should run with exit code 0(no errors)
+'''
 copy = os.system("cd")
 print("'cd' ran with exit code %d" % copy)
+'''
 
-# Meant to fail to show error vs success
+# Should fail with exit code 1(errors)
+'''
 unknown_dir = os.system("cd doesnotexist")
 print("`cd doesnotexis` ran with exit code %d" % unknown_dir)
-
-from Tkinter import Tk     # from tkinter import Tk for Python 3.x
-from tkinter.filedialog import askopenfilename
-
-Tk().withdraw() # we don't want a full GUI, so keep the root window from appearing
-filename = askopenfilename() # show an "Open" dialog box and return the path to the selected file
-print(filename)
+'''
