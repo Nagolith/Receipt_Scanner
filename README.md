@@ -1,8 +1,8 @@
 # Receipt_Scanner
 
-Jonathan Hald, Christian Martinez, and Erik Sanders
+_Jonathan Hald_, _Christian Martinez_, and _Erik Sanders_
 
-resources:
+**Resources**:
 
 https://nanonets.com/blog/receipt-ocr/#why-is-it-a-difficult-problem
 
@@ -28,58 +28,39 @@ https://github.com/argman/EAST
 https://www.pyimagesearch.com/2018/08/20/opencv-text-detection-east-text-detector/
 
 
-Select-
-
-  Open file Explorer
-  
-  Select file/Open file
-  
-  Return name of image and location
+**Select**:
+  - Open file Explorer
+  - Select file/Open file
+  - Return name of image and location
   
  
-Display File Name:
-
-  Get file name
-  
-  Display file name
+**Display File Name**:
+  - Get file name 
+  - Display file name
   
   
-Convert:
-
-  Name new file
-  
-  Get file name 
-  
-  Get file Path
- 
-  Terminal commands:
-  
-   -cd path
-   -tesseract filename new_filename + enter
-   
-  Convert txt to csv
-  
-  Convert csv to Excel
-  
- Return new file path 
- 
- Return new Excel filename
+**Convert**:
+  - Name new file 
+  - Get file name  
+  - Get file Path
+  - Terminal commands:
+    - cd path
+    - tesseract filename new_filename + enter
+  - Convert txt to csv
+  - Convert csv to Excel
+  - Return new file path 
+  - Return new Excel filename
  
  
- Open File:
- 
-   Get file path
-   
-   Get file name
-   
-   Open file
-   
-   Terminal Commands:
-   
+ **Open File**:
+   - Get file path
+   - Get file name
+   - Open file  
+    - Terminal Commands:  
       - cd path
       - filename.(extension) + enter
  
-  
 
 TODO:
 Colors of GUI - Christian
+Terminal Commands - Erik
