@@ -14,6 +14,9 @@ https://www.raywenderlich.com/
 
 https://www.geeksforgeeks.org/os-module-python-examples/
 
+https://stackoverflow.com/questions/764631/how-to-hide-console-window-in-python
+
+
 <<<<<<< HEAD
 =======
 Kaggle.com 
