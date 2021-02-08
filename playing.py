@@ -33,6 +33,9 @@ def convertToExcel ():
 saveAsButton_Excel = tk.Button(text='Convert CSV to Excel', command=convertToExcel, bg='green', fg='white', font=('helvetica', 12, 'bold'))
 canvas1.create_window(150, 180, window=saveAsButton_Excel)
 
+
+
+
 def exitApplication():
     MsgBox = tk.messagebox.askquestion ('Exit Application','Are you sure you want to exit the application',icon = 'warning')
     if MsgBox == 'yes':
@@ -42,3 +45,28 @@ exitButton = tk.Button (root, text='       Exit Application     ',command=exitAp
 canvas1.create_window(150, 230, window=exitButton)
 
 root.mainloop()
+
+
+
+
+
+    def1:
+    global image_path
+    global image_name
+    global path
+
+    image_path = filedialog.askopenfilename()
+    image_name = os.path.basename(image_path)
+    
+    test = image_path.split(image_name)
+    path = test[0]
+  
+    def2:
+    new_file_name = 'poppy'
+    clear_dir = 'cd\ '
+    run_tesseract = 'tesseract ' + image_name + ' ' + new_file_name
+
+    os.system(clear_dir)
+    os.system('cd ' + path)
+    os.chdir(path)
+    os.system(run_tesseract)
