@@ -1,5 +1,5 @@
 from tkinter import *
-from tkmacosx import Button
+#from tkmacosx import Button
 from tkinter import filedialog
 from tkinter import messagebox
 import pandas as pd
@@ -69,16 +69,23 @@ canvas1.create_window(150, 200, window=saveAsButton_Excel)
 
 def open_file():
     os.system('open ' + new_file_name + '.xlsx')
-    
+
+
+photo3 = PhotoImage(file="open.png")
+
+# Resizing image to fit on button
+photoimage3 = photo3.subsample(17, 17)
 # Button open file
 openFile_Excel = Button(root
     ,width = 160
+    ,image = photoimage3
     ,text='Open File'
     ,command=open_file
-    ,bg='green'
+    ,bg='#1db954'
     ,fg='white'
     ,font=('helvetica', 12, 'bold')
-    ,borderless=1)
+    ,compound=LEFT)
+openFile_Excel.pack()
 
 canvas1.create_window(150, 250, window=openFile_Excel)
 
