@@ -9,10 +9,10 @@ import cmath
 
 root= Tk()
 
-canvas1 = tk.Canvas(root, width = 300, height = 300, bg = '#474749', relief = 'raised')
+canvas1 = Canvas(root, width = 300, height = 300, bg = '#474749', relief = 'raised')
 canvas1.pack()
 
-label1 = tk.Label(root, text='File Conversion Tool', bg = '#474749', fg="white",)
+label1 = Label(root, text='File Conversion Tool', bg = '#474749', fg="white",)
 label1.config(font=('helvetica', 20))
 canvas1.create_window(150, 60, window=label1)
 
@@ -33,7 +33,7 @@ photo = PhotoImage(file="upload.png")
 # Resizing image to fit on button
 photoimage = photo.subsample(9, 9)
 
-browseButton_CSV = tk.Button(image = photoimage, text="     Import CSV File      ",  command=getCSV, fg='white', bg='#1db954', font=('helvetica', 12, 'bold'),compound=LEFT)
+browseButton_CSV = Button(root, image = photoimage, text="     Import CSV File      ",  command=getCSV, fg='white', bg='#1db954', font=('helvetica', 12, 'bold'),compound=LEFT)
 browseButton_CSV.pack()
 canvas1.create_window(150, 120, window=browseButton_CSV)
 
@@ -62,7 +62,7 @@ photo2 = PhotoImage(file="convert.png")
 # Resizing image to fit on button
 photoimage2 = photo2.subsample(7, 7)
 
-saveAsButton_Excel = tk.Button(image = photoimage2,text='Convert CSV to Excel', command=convertToExcel, bg='#1db954', fg='white', font=('helvetica', 12, 'bold'),compound=LEFT)
+saveAsButton_Excel = Button(root, image = photoimage2,text='Convert CSV to Excel', command=convertToExcel, bg='#1db954', fg='white', font=('helvetica', 12, 'bold'),compound=LEFT, borderless=1)
 saveAsButton_Excel.pack()
 canvas1.create_window(150, 180, window=saveAsButton_Excel)
 
@@ -74,7 +74,7 @@ def exitApplication():
     if MsgBox == 'yes':
        root.destroy()
      
-exitButton = tk.Button (root, text='       Exit Application     ',command=exitApplication, bg='#ec002d', fg='white', font=('helvetica', 12, 'bold'))
+exitButton = Button (root, text='       Exit Application     ',command=exitApplication, bg='#ec002d', fg='white', font=('helvetica', 12, 'bold'))
 canvas1.create_window(150, 240, window=exitButton)
 
 root.mainloop()
