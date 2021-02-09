@@ -66,7 +66,20 @@ saveAsButton_Excel = Button(root, image = photoimage2,text='Convert CSV to Excel
 saveAsButton_Excel.pack()
 canvas1.create_window(150, 180, window=saveAsButton_Excel)
 
+def open_file():
+    os.system(path + new_file_name + '.csv')
+    
+# Button open file
+openFile_Excel = Button(root
+    ,width = 160
+    ,text='Open File'
+    ,command=open_file
+    ,bg='green'
+    ,fg='white'
+    ,font=('helvetica', 12, 'bold')
+    ,borderless=1)
 
+canvas1.create_window(150, 300, window=openFile_Excel
 
 
 def exitApplication():
