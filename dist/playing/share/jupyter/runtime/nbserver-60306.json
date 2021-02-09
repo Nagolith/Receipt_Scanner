@@ -1,0 +1,11 @@
+{
+  "base_url": "/",
+  "hostname": "localhost",
+  "notebook_dir": "/Users/jonathanhald",
+  "password": false,
+  "pid": 60306,
+  "port": 8888,
+  "secure": false,
+  "token": "db6214b7094431829ce67ae6d9d3a6c9c42c3a1d9924d25a",
+  "url": "http://localhost:8888/"
+}
